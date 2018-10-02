@@ -121,6 +121,14 @@
             <artifactId>jjwt</artifactId>
             <version>${jjwt.version}</version>
         </dependency>
+
+		<!--url重写的-->
+		<dependency>
+			<groupId>org.tuckey</groupId>
+			<artifactId>urlrewritefilter</artifactId>
+			<version>4.0.4</version>
+		</dependency>
+
        <!-- 生成静态页面的-->
 		<dependency>
 			<groupId>org.freemarker</groupId>

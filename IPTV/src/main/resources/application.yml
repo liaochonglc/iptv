@@ -23,3 +23,8 @@ mybatis:
     map-underscore-to-camel-case: true
     use-column-label: true
     use-generated-keys: true
+
+
+
+rewrite:
+  url: classpath:/urlrewrite.xml
