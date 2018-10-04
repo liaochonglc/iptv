@@ -2,8 +2,8 @@
 
     <!-- 静态网页 -->
     <rule>
-        <from>^/user/(\w+).html$</from>
-        <to>/static/$1.html</to>
+        <from>/a</from>
+        <to>/user/login</to>
     </rule>
 
 </urlrewrite>

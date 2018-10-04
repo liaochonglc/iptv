@@ -129,7 +129,14 @@
 			<version>4.0.4</version>
 		</dependency>
 
-       <!-- 生成静态页面的-->
+		<!--访问页面的-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+
+		<!-- 生成静态页面的-->
 		<dependency>
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
